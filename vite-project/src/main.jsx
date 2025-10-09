@@ -10,11 +10,19 @@ function Header(){
   )
 }
 
-function Page(){
+function Footer () {
+return(
+  <footer>
+        <small>
+           © copyright 2024 Gibson developer. All rights reserved.
+        </small>
+      </footer>
+  ) 
+}
+
+function Main (){
   return(
-    <>
-    <Header/>
-      <main>
+<main>
       <h1>My Shopping List </h1>
     <ol>
           <li> Bread </li>
@@ -23,16 +31,20 @@ function Page(){
           <li> fruit  </li>
        </ol>
     </main>
-    <footer>
-        <small>
-           © copyright 2024 Gibson developer. All rights reserved.
-        </small>
-      </footer>
-    </>
-
-    
   )
 }
+
+function Page(){
+  return(
+    <>
+    <Header/>
+    <Footer/>
+    <Main/>
+    </>
+  )
+    }
+  
+
 root.render(
   < Page />
 )
