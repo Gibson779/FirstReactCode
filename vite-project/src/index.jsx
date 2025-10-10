@@ -6,6 +6,13 @@ function Header(){
   return(
    <header>
          <img src="React-icon.png" alt="React Logo" width="40px"/>
+         <nav >
+          <ul className = "nav-list">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+         </nav>
       </header>
   )
 }
@@ -42,7 +49,7 @@ function Page(){
     <Main/>
     </>
   )
-    }
+}
   
 
 root.render(
