@@ -1,7 +1,13 @@
 export default function Main (){
   return(
 <main>
-      <h1>Main goes here </h1>
+    <ul>
+       <li>Was first released in 2013 </li> 
+       <li>Was first released in 2013 </li> 
+       <li>Was first released in 2013 </li> 
+       <li>Was first released in 2013 </li> 
+       <li>Was first released in 2013 </li> 
+    </ul>
     </main>
   )
 }
