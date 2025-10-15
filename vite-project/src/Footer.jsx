@@ -1,6 +1,6 @@
 export default function Footer () {
 return(
-  <footer>
+  <footer className= "footer">
         <small>
            © copyright 2024 Gibson developer. All rights reserved.
         </small>

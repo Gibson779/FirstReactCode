@@ -3,10 +3,11 @@
 }
 
 body {
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
-    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: white;
+    
 }
 
 h1 {
@@ -14,12 +15,16 @@ h1 {
 }
 
 .header{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #000000;
+
 }
 
 .nav-list {
+    color: white;
     list-style: none;
     position: relative;
     display: flex;
@@ -29,10 +34,17 @@ h1 {
 }
 
 .nav-list-item{
+    
     margin-left: 10px;
     font-size: 1.1rem;
+    
 }
 
 .img {
     width: 70px;
 }
+
+.footer{
+    
+}
+
