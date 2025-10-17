@@ -1,13 +1,13 @@
 export default function Main (){
   return(
 <main>
-    <ul>
+    <ol>
        <li>Was first released in 2013 </li> 
        <li>Was first released in 2013 </li> 
        <li>Was first released in 2013 </li> 
        <li>Was first released in 2013 </li> 
        <li>Was first released in 2013 </li> 
-    </ul>
+    </ol>
     </main>
   )
 }

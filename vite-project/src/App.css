@@ -17,17 +17,39 @@ nav {
     display: flex;
     align-items: center;
     height: 100%;
+    
 }
 
 nav > img {
-    width: 40px;
-    margin-right: 7px;
+    width: 50px;
+    margin-right: 15px;
 
 }
 
 nav > span {
-    color: #61DAFB;
+    color: white;
     font-size: 1.4rem;
 
 }
+ footer {
+ background-color: #21222A;
+ color: white;
  
+
+ }
+
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: end;
+    
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px 20px ;
+    font-size: 19px;
+    cursor: pointer;
+
+
+}

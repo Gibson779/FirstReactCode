@@ -1,12 +1,17 @@
-import ReactIcon from "/React-icon.png"
+import ReactIcon from "/Logo.jpeg"
 
 export default function Navbar (){
   return(
     <header>
         <nav>
-            <img src= {ReactIcon}/>
-            <span>ReactFacts</span>
+            <img src= {ReactIcon} alt= "React Logo"/>
+            <span>Regan Gibson</span>
+            <ul>
+               <li>Home</li>
+               <li>About</li>
+            </ul>
         </nav>
+        
     </header>
   )
   }
