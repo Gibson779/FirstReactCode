@@ -1,13 +1,9 @@
 export default function Main (){
   return(
 <main>
-    <ol>
-       <li>Was first released in 2013 </li> 
-       <li>Was first released in 2013 </li> 
-       <li>Was first released in 2013 </li> 
-       <li>Was first released in 2013 </li> 
-       <li>Was first released in 2013 </li> 
-    </ol>
+    <img src="./Manchester.jpg" alt="Pic" />
+     <img src="./Manchester3.JPG" alt="Pic" />
+     <img src="./Manchester2.jpg" alt="Pic" />
     </main>
   )
 }

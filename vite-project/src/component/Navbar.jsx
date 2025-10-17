@@ -6,7 +6,7 @@ export default function Navbar (){
         <nav>
             <img src= {ReactIcon} alt= "React Logo"/>
             <span>Regan Gibson</span>
-            <ul>
+            <ul clasName ListItems>
                <li>Home</li>
                <li>About</li>
             </ul>
