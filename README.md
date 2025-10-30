@@ -18,4 +18,4 @@ Getting my hands on some basic JSX sintax to develop my knowdel in react.
 
 🔄 Easy to extend for future pages or apps
 
-Demo - 
+Demo - https://brilliant-sunflower-48a0aa.netlify.app/
